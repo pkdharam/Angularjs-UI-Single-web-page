@@ -24,7 +24,7 @@ https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-animate.js
 ```
 From npm Install
 ```
-$ npm install angular.js
+$ npm install angular
 ```
 ## Run the Application
 
