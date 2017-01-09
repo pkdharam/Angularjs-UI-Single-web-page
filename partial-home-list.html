@@ -1,0 +1,10 @@
+
+<div class="container">
+	
+<div class="form-group">
+<p><input type="text" class="form-control" ng-model="test" placeholder="Enter For your Item" ></p>
+</div>
+<ul>
+    <li ng-repeat="name in names | filter:test">{{ name }}</li>
+</ul>
+</div>

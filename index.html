@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- CSS (load bootstrap) -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="index.css"/>
+    <!-- JS (load angular, ui-router, and our custom js file) -->
+    <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<!-- apply our angular app to our site -->
+<body ng-app="routerApp">
+
+<!-- NAVIGATION -->
+ <table style="font-family: Arial">
+    <tr>
+        <td colspan="2" class="header">
+        <a ui-sref="#">Construction Holdings</a></td></tr>
+        <tr>
+        <td class="leftMenu">
+			<a ui-sref="home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a>
+            <a ui-sref="about">About</a>
+            </td>
+        <td class="mainContent">
+            
+            <ui-view></ui-view>
+            </td></tr>
+            <tr><td colspan="2" class="footer">
+            <p>Construction Holdings</p>
+            <div class="newspaper">Sign Up<br> Log In <br> Messenger<br>Facebook Lite<br> Mobile<br> Find Friends <br>Badges <br>People<br>	Pages <br>Places<br>	Games
+<br>Locations<br>	Celebrities<br>	Groups<br>	Moments<br>	About <br>Create Ad<br>	Create Page<br>	Developers<br>	Careers<br>	Privacy<br>	Cookies<br>
+Ad Choices<br> Terms <br>Help<br> Settings<br> Activity<br> Log <br>
+        </div><hr>
+            <b>Copyright &#169; Construction Holdings.Inc</b></td></tr>
+    </table>
+</body>
+</html>
